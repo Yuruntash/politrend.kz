@@ -66,7 +66,7 @@ display:none;
 	font-style: normal;
 }
 body {
-	background:#195f88;
+	background:#E6E6E6;
 	font-size:14px
 }
 div#wrap {
@@ -78,7 +78,8 @@ div#sidebar {
 	width:220px;
 	height:100%;
 	float:left;
-	background:#2c2c2c;
+	//background:#2c2c2c;
+        background:rgba(227, 227, 227, 1); 
 	border-right:1px solid #2e2f2f;
 	position:fixed
 }
@@ -125,7 +126,7 @@ ul#navigation li a:link, ul#navigation li a:visited {
 	padding:5px 10px 5px 0
 }
 ul#navigation li a:hover, ul#navigation li a.active {
-	background:#1b1b1b;
+	background:#999999;
 	color:#FFF;
 }
 div#container {
@@ -475,7 +476,7 @@ ol.comments li.comment a.reply:hover, div.tab ul.tab_menu li:hover, div.tab ul.t
 }
 .button:active, .button.active {
 	color: #fff;
-	background-color: #12415c;
+	background-color: #12415c#;
 }
 
 /* overrides extra padding on button elements in Firefox */
