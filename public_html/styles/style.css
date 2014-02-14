@@ -2,7 +2,7 @@ body, p, div, h1, h2, h3, h4, h5, h6, table, tbody, tr, td, span, blockquote, a,
     border:0;
     outline:0;
     font-family:Arial, Helvetica, Sans-Serif;
-    color:#fff;
+    color:#000;
     vertical-align:baseline;
     list-style:none;
     text-decoration:none;
@@ -23,48 +23,35 @@ body, p, div, h1, h2, h3, h4, h5, h6, table, tbody, tr, td, span, blockquote, a,
     margin-top:20px;
     padding-left:10px;
 }
+
+// -----------------------------------------------------------------------------
+
 @font-face {
-    font-family: 'OstrichSansCondensedLight';
-    src: url('Fonts/ostrich-light-webfont.eot');
-    src: url('Fonts/ostrich-light-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-light-webfont.woff') format('woff'),  url('Fonts/ostrich-light-webfont.ttf') format('truetype'),  url('Fonts/ostrich-light-webfont.svg#OstrichSansCondensedLight') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "DejaVu Sans";
+    src: url("Fonts/DejaVuSans.ttf");
 }
 @font-face {
-    font-family: 'OstrichSansMedium';
-    src: url('Fonts/ostrich-regular-webfont.eot');
-    src: url('Fonts/ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-regular-webfont.woff') format('woff'),  url('Fonts/ostrich-regular-webfont.ttf') format('truetype'),  url('Fonts/ostrich-regular-webfont.svg#OstrichSansMedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "DejaVu Sans";
+    src: url("Fonts/DejaVuSans-Bold.ttf");
+    font-weight: bold;
 }
 @font-face {
-    font-family: 'OstrichSansBold';
-    src: url('Fonts/ostrich-bold-webfont.eot');
-    src: url('Fonts/ostrich-bold-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-bold-webfont.woff') format('woff'),  url('Fonts/ostrich-bold-webfont.ttf') format('truetype'),  url('Fonts/ostrich-bold-webfont.svg#OstrichSansBold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "DejaVu Sans";
+    src: url("Fonts/DejaVuSans-Oblique.ttf");
+    font-style: italic, oblique;
 }
 @font-face {
-    font-family: 'OstrichSansBlack';
-    src: url('Fonts/ostrich-black-webfont.eot');
-    src: url('Fonts/ostrich-black-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-black-webfont.woff') format('woff'),  url('Fonts/ostrich-black-webfont.ttf') format('truetype'),  url('Fonts/ostrich-black-webfont.svg#OstrichSansBlack') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "DejaVu Sans";
+    src: url("Fonts/DejaVuSans-BoldOblique.ttf");
+    font-weight: bold;
+    font-style: italic, oblique;
 }
-@font-face {
-    font-family: 'OstrichSansRoundedMedium';
-    src: url('Fonts/ostrich-rounded-webfont.eot');
-    src: url('Fonts/ostrich-rounded-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-rounded-webfont.woff') format('woff'),  url('Fonts/ostrich-rounded-webfont.ttf') format('truetype'),  url('Fonts/ostrich-rounded-webfont.svg#OstrichSansRoundedMedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'OstrichSansDashedMedium';
-    src: url('Fonts/ostrich-dashed-webfont.eot');
-    src: url('Fonts/ostrich-dashed-webfont.eot?#iefix') format('embedded-opentype'),  url('Fonts/ostrich-dashed-webfont.woff') format('woff'),  url('Fonts/ostrich-dashed-webfont.ttf') format('truetype'),  url('Fonts/ostrich-dashed-webfont.svg#OstrichSansDashedMedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+
+
+// -----------------------------------------------------------------------------
+
+
+
 body {
     background:#E6E6E6;
     font-size:14px
@@ -112,7 +99,7 @@ ul#navigation li {
 }
 ul#navigation li a:link, ul#navigation li a:visited {
     text-decoration:none;
-    font-family:'OstrichSansBlack', Arial, sans-serif;
+    font-family:'DejaVu Sans', Arial, sans-serif;
     margin-bottom:1px;
     width:auto;
     font-size:20px;
@@ -142,7 +129,7 @@ div#container {
     -o-box-shadow: inset 0px 0px 50px 0px #ABABAB;
 }
 div.page {
-    margin-bottom:5px solid #dbdbdb;
+    margin-bottom: 5px solid #dbdbdb;
     margin-bottom:0;
     padding-top:20px
 }
@@ -150,10 +137,10 @@ div.page_content {
     padding:25px 0 40px 25px
 }
 div#container h3.page_title {
-    font-family: 'OstrichSansBlack';
+    font-family: "DejaVu Sans";
     margin-left:25px;
     font-size:35px;
-    color:#fff;
+    color:#222;
     border-bottom:1px solid #fff;
     text-shadow:1px 1px 2px #185477;
     line-height:2;
@@ -292,12 +279,12 @@ a.gotop {
     text-decoration:none!important
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:"DejaVu Sans", Arial, Helvetica, sans-serif;
     font-weight:bold;
     color:#1d1d1d
 }
 h4.blue {
-    font-family: 'OstrichSansBlack';
+    font-family: "DejaVu Sans";
     color: #0D4667;
     text-shadow: 1px 1px 0px #84BBDB;
     font-size: 28px;
@@ -343,10 +330,10 @@ h4.blue {
     margin-left:68px;
 }
 .column_content h4 {
-    font-family: 'OstrichSansBlack';
+    font-family: "DejaVu Sans";
     color:#0d4667;
     text-shadow:1px 1px 0px #84bbdb;
-    font-size:28px;
+    font-size:22px;
 }
 .first {
     clear:left
@@ -479,7 +466,7 @@ ol.comments li.comment a.reply:hover, div.tab ul.tab_menu li:hover, div.tab ul.t
 }
 .button:active, .button.active {
     color: #fff;
-    background-color: #12415c#;
+    background-color: #12415c;
 }
 
 /* overrides extra padding on button elements in Firefox */
